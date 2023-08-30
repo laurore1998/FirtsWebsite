@@ -1,0 +1,345 @@
+@charset "utf-8";
+
+
+/* Global */
+
+body{
+	background-color: #ddd;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'sans-serif'; 
+	background-size: cover;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.mobilnav{
+	display:none;
+	list-style: none;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding:0;
+	margin:0;
+	background-color: #27ae60 ;
+	z-index: 999;
+}
+
+.xx{
+	color:#27ae60;  
+}
+
+.menu-mobil{
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+/*
+background-color: #27ae60 ;
+*/
+	list-style: none;
+	list-style-position: inside;
+}
+
+.menu-mobil li{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #000;
+	text-align: center;
+	border-bottom: 2px solid #000;
+}
+
+.menu-mobil li a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* Header */
+
+#header{
+	width:100%;
+	height:70px;
+	background-color:#27ae60;
+}
+
+.menu{
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color:#27ae60;
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.menu a{
+	line-height: 70px;
+	color: #fff;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.menu a:hover{
+	background-color: #000;
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+
+/* Banniere Acceuil*/
+
+#ban-acceuil{
+	max-width: 100%;
+	height: 1000px;
+	margin: 0px;
+	padding: 50px;
+	background-color: #000;
+}
+
+#experience{
+	text-align: center;
+}
+.image{
+	width: 40%;
+    height: auto;
+    margin: auto;
+    border: 3px solid #27ae60;
+	border-radius: 56%;
+	top: 80%;
+	/*border-bottom: 5px solid rgb(0,163,35);*/
+	
+}
+
+.image img{
+	width: 100%;
+	height: auto;
+
+}
+
+.content{
+	margin: auto;
+	text-align: center;
+}
+
+.content p{
+	color: #fff;
+	font-size: 25px;
+}
+
+.content h1{
+	color: #fff;
+	font-size: 4em;
+	text-shadow: 1px 1px 2px #27ae60;
+}
+
+#t{
+	font-style: italic;
+	font-weight: normal;
+	font-family: 'algerian';
+	text-shadow: 1px 4px 10px green;
+}
+
+/*other banniere*/
+
+#ban-other{
+	max-width: 100%;
+	height: 400px;
+	margin: 0px;
+	padding: 50px;
+	background-color: #000;
+}
+
+.image2{
+	width: 20%;
+	height: 20%;
+  /*border: 0px solid #fff;
+	border-radius: 100%;
+  */margin: 50px;
+	float:left;
+}
+
+.image2 img{
+	width: 99%;
+	height: 220px;
+}
+
+.content2{
+	float: right;
+	text-align: right;
+}
+
+.content2 p{
+	color: #fff;
+	font-size: 22px;
+}
+
+.content2 h1{
+	color: #fff;
+	font-size: 4em;
+	text-shadow: 1px 1px 2px #27ae60;
+}
+
+/*competence*/
+.bur{
+	text-align: center;
+}
+.titre{
+	font-size: 70px;
+	text-align: center;
+
+}
+.com{
+	font-weight: 25px;
+}
+.div{
+	width: 100%;
+	height:auto;
+	padding: auto;
+	text-align: justify;
+	line-height: 0px;
+
+}
+.bur{
+	width: 33%;
+	height: auto;
+	margin:auto;
+	display:inline-grid;
+	
+}
+.form_foot{
+	background-color: #000;
+	padding: 0px;
+	border:0px;
+}
+/*folio*/
+.folio{
+	margin: auto;
+	width: 80%;
+	margin-bottom: 30px;
+}
+
+.fofo{
+	width: 33%;
+	height: auto;
+	margin: auto;
+	display: inline-block;
+}
+
+.fofo img{
+	width: 100%;
+	height: auto;
+}
+.foot{
+	width: auto;
+	margin: 0;
+	background-color: #000;
+	color:#fff;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+}
+
+.form{
+	text-align: center;
+}
+hr{
+	width: 80%;
+	margin-top:px;
+	color: #3498db;
+}
+@media (max-width: 800px)
+{
+	.menu{
+		display: none;
+	}
+
+	.action{
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 70px;
+	}
+	
+	.menu-mobil{
+	 	display: none;
+	}
+	.action:hover .menu-mobil{
+		display: block;
+	}
+
+
+	.mobilnav{
+		
+		display: block;
+	}
+
+	#ban-other{
+		height: 400px;
+		display: block;
+	}
+
+	#ban-acceuil{
+		height: 400px;
+	}
+
+	.image2, .image{
+		display: block;
+		margin: auto;
+		width: 100%;
+		height: 261px;
+		border: 1px solid rgb(0, 163, 35);
+        border-radius: 320px;
+	}
+
+	.image2 img, .image img{
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+
+	.content2{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	.content2 p{
+		font-size: 16px;
+	}
+
+	.content p{
+		font-size: 16px;
+	}
+
+
+	.content2 h1{
+		font-size: 1.2em;
+	}
+
+	.content h1{
+		font-size: 1.2em;
+	}
+
+	.titre{
+		font-size: 20px;
+	}
+
+	.bur{
+		display: block;
+	}
+
+	.fofo{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+}
